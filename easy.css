@@ -1,0 +1,81 @@
+html {
+    line-height: 1.5;
+}
+
+html, body {
+    margin: 0;
+}
+
+h1 {
+    margin: 2.8rem 0 1.6rem 0;
+}
+
+h2 {
+    margin: 2.4rem 0 1.4rem 0;
+}
+
+h3 {
+    margin: 2rem 0 1.2rem 0;
+}
+
+h4 {
+    margin: 1.6rem 0 1.0rem 0;
+}
+
+h5 {
+    margin: 1.2rem 0 0.8rem 0;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.1;
+    font-weight: normal;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul > li, ol > li {
+    margin-bottom: 5px;
+}
+
+ul > li:nth-last-of-type(1), ol > li:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+button {
+    font: inherit;
+}
+
+b {
+    font-weight: 500;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+header a, footer a {
+    text-decoration: none;
+}
+
+nav {
+    height: 64px;
+    line-height: 64px;
+    width: calc(100% - 50px);
+    padding: 0 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section a, article a {
+    border-bottom: 2px solid;
+    padding-bottom: 2px;
+}
